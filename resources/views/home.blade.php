@@ -16,12 +16,12 @@
         <div class="cards-container">
             @foreach($films as $film)
             <div class="card">
-                <p>{{ $film['id'] }}</p>
-                <p>{{ $film['title'] }}</p>
-                <p>{{ $film['original_title'] }}</p>
-                <p>{{ $film['nationality'] }}</p>
-                <p>{{ $film['date'] }}</p>
-                <p>{{ $film['vote'] }}</p>
+                <p><span>id</span><br>{{ $film['id'] }}</p>
+                <p><span>title</span><br>{{ $film['title'] }}</p>
+                <p><span>original title</span><br>{{ $film['original_title'] }}</p>
+                <p><span>nationality</span><br>{{ $film['nationality'] }}</p>
+                <p><span>date</span><br>{{ $film['date'] }}</p>
+                <p><span>vote</span><br>{{ $film['vote'] }}</p>
             </div>
             @endforeach
         </div>
